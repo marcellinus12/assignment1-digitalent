@@ -23,7 +23,6 @@ func main() {
 		return
 	}
 
-	// Mengonversi argumen ke integer
 	no, err := strconv.Atoi(args[0])
 	if err != nil {
 		fmt.Printf("%v\n", err)
